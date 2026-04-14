@@ -34,3 +34,5 @@ GRANT SELECT ON [dbo].[reviews] TO new_user_2;
 GRANT VIEW DATABASE STATE TO new_user_2;
 
 GRANT VIEW DEFINITION TO new_user_2
+
+GRANT VIEW CHANGE TRACKING ON SCHEMA::dbo TO new_user_2;
