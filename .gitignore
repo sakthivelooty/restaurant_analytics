@@ -1,2 +1,1 @@
-venv/*
-venv/bin/docker-image-tool.sh
+venv/
