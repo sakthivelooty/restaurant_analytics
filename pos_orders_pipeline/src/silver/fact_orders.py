@@ -19,6 +19,18 @@ order_item_schema = ArrayType(
         "quality":"silver"
     }
 )
+@dp.expect_all_or_drop(
+    {
+        "valid_order_id": "order_id IS NOT NULL",
+        "valid_timestamp": "orders_timestamp IS NOT NULL",
+        "valid_restaurant_id": "restaurant_id IS NOT NULL",
+        "valid_customer_id": "customer_id IS NOT NULL",
+        "valid_item_count": "item_count > 0",
+        "valid_STATUS": "order_status in ('complete','pending','ready','delivered','preparing')",
+        "valid_payment_method": "payment_method in ('cash','credit','wallet')",
+        "valid_total_amount": "total_amount > 0",
+    }
+)
 def fact_orders():
 
     fact_order = (
