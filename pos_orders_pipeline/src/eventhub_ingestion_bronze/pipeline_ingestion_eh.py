@@ -4,9 +4,9 @@ from pyspark.sql.types import *
 import pyspark.sql.functions as F
 from pyspark import pipelines as dp
 
-EH_CONN_STR = ""
-EH_NAME = ""
-EH_NAMESPACE = ""
+EH_CONN_STR = spark.conf.get("EH_CONN_STR")
+EH_NAME = spark.conf.get("EH_NAME")
+EH_NAMESPACE = spark.conf.get("EH_NAMESPACE")
 
 KAFKA_OPTIONS = {
   "kafka.bootstrap.servers"  : f"{EH_NAMESPACE}.servicebus.windows.net:9093",
