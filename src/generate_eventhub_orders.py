@@ -107,4 +107,4 @@ def stream_to_eventhub(interval_seconds=3, max_orders=None):
         pass
 
 if __name__ == "__main__":
-    stream_to_eventhub(interval_seconds=0.1)
+    stream_to_eventhub(interval_seconds=0.5)

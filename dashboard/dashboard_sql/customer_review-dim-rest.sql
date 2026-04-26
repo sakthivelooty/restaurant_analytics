@@ -1,0 +1,1 @@
+select * from dbx_az_projects.`03_gold`.dim_restaurant_review
