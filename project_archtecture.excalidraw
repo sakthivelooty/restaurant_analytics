@@ -19292,8 +19292,8 @@
         "type": 3
       },
       "seed": 1192682480,
-      "version": 154,
-      "versionNonce": 1739225872,
+      "version": 155,
+      "versionNonce": 2101557441,
       "isDeleted": false,
       "boundElements": [
         {
@@ -19303,9 +19303,13 @@
         {
           "id": "L92TTrTK24cnGKqpZlT3F",
           "type": "arrow"
+        },
+        {
+          "id": "mUyRlyNkJuEnGibFcQ_mO",
+          "type": "arrow"
         }
       ],
-      "updated": 1775712772034,
+      "updated": 1776856985660,
       "link": null,
       "locked": false
     },
@@ -19546,8 +19550,8 @@
         "type": 3
       },
       "seed": 2014812944,
-      "version": 184,
-      "versionNonce": 1106949904,
+      "version": 185,
+      "versionNonce": 1850391681,
       "isDeleted": false,
       "boundElements": [
         {
@@ -19561,9 +19565,13 @@
         {
           "id": "BszZk2PkxEuRonCWbDhz0",
           "type": "arrow"
+        },
+        {
+          "id": "mUyRlyNkJuEnGibFcQ_mO",
+          "type": "arrow"
         }
       ],
-      "updated": 1775713117013,
+      "updated": 1776856985661,
       "link": null,
       "locked": false
     },
@@ -23744,7 +23752,7 @@
     {
       "id": "MnYUM13cW9W7t5SjRy639",
       "type": "text",
-      "x": 2307.6165291922434,
+      "x": 2306.6165291922434,
       "y": -126.31506342484181,
       "width": 126.11186218261719,
       "height": 60,
@@ -23761,11 +23769,11 @@
       "index": "b1D",
       "roundness": null,
       "seed": 1623017456,
-      "version": 76,
-      "versionNonce": 1712510736,
+      "version": 77,
+      "versionNonce": 563690753,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1775713101778,
+      "updated": 1777040617513,
       "link": null,
       "locked": false,
       "text": "fact_orders\ndim_customers\ndim_restaurents",
@@ -25936,7 +25944,7 @@
       "version": 63,
       "versionNonce": 1799948833,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855190573,
       "link": null,
       "locked": false,
@@ -26026,7 +26034,7 @@
       "version": 119,
       "versionNonce": 1492551393,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855791933,
       "link": null,
       "locked": false,
@@ -26063,7 +26071,7 @@
       "version": 248,
       "versionNonce": 1092612655,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855834643,
       "link": null,
       "locked": false,
@@ -26172,7 +26180,7 @@
       "version": 225,
       "versionNonce": 1057578703,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776856199165,
       "link": null,
       "locked": false,
@@ -26269,7 +26277,7 @@
     {
       "id": "FdjPdvdVkZ18oRa-5huBh",
       "type": "text",
-      "x": -45.42513085688893,
+      "x": -43.99655942831748,
       "y": 3733.5163483203933,
       "width": 559.6537318922959,
       "height": 609.1890646278175,
@@ -26286,11 +26294,11 @@
       "index": "b24",
       "roundness": null,
       "seed": 1544172065,
-      "version": 305,
-      "versionNonce": 15960943,
+      "version": 306,
+      "versionNonce": 1394569935,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1776856233380,
+      "boundElements": [],
+      "updated": 1776883361394,
       "link": null,
       "locked": false,
       "text": "review_id  PRIMARY KEY,\norder_id ,\ncustomer_id ,\nrestaurant_id ,\nrating INT,\nreview_text ,\nanalysis_json TODO: ,\nsentiment ,\nissue_delivery ,\nissue_delivery_reason ,\nissue_food_quality ,\nissue_food_quality_reason ,\nissue_pricing ,\nissue_pricing_reason ,\nissue_portion_size ,\nissue_portion_size_reason ,\nreview_timestamp ,\n_ingestion_timestamp ",
@@ -26398,7 +26406,7 @@
       "version": 98,
       "versionNonce": 1165539887,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855807360,
       "link": null,
       "locked": false,
@@ -26478,7 +26486,7 @@
       "version": 85,
       "versionNonce": 1571780097,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855810805,
       "link": null,
       "locked": false,
@@ -26515,7 +26523,7 @@
       "version": 95,
       "versionNonce": 791875041,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855810805,
       "link": null,
       "locked": false,
@@ -26628,7 +26636,7 @@
       "version": 172,
       "versionNonce": 72460175,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776856149247,
       "link": null,
       "locked": false,
@@ -26665,7 +26673,7 @@
       "version": 91,
       "versionNonce": 1715488417,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855872627,
       "link": null,
       "locked": false,
@@ -26748,7 +26756,7 @@
       "version": 49,
       "versionNonce": 569973761,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855889342,
       "link": null,
       "locked": false,
@@ -26785,7 +26793,7 @@
       "version": 48,
       "versionNonce": 1848972385,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855960597,
       "link": null,
       "locked": false,
@@ -26868,7 +26876,7 @@
       "version": 134,
       "versionNonce": 475196111,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776855972255,
       "link": null,
       "locked": false,
@@ -27059,7 +27067,7 @@
       "version": 142,
       "versionNonce": 140427041,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776856204898,
       "link": null,
       "locked": false,
@@ -27179,7 +27187,7 @@
       "version": 156,
       "versionNonce": 508810017,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776856087960,
       "link": null,
       "locked": false,
@@ -27300,7 +27308,7 @@
       "version": 175,
       "versionNonce": 1174367535,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776856149246,
       "link": null,
       "locked": false,
@@ -27420,7 +27428,7 @@
       "version": 126,
       "versionNonce": 219672399,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1776856149247,
       "link": null,
       "locked": false,
@@ -27504,6 +27512,77 @@
       "originalText": "*",
       "autoResize": true,
       "lineHeight": 1.25
+    },
+    {
+      "id": "mUyRlyNkJuEnGibFcQ_mO",
+      "type": "arrow",
+      "x": 1659.5544764539338,
+      "y": -128.03127072722566,
+      "width": 126.83639872009235,
+      "height": 19.740533667380532,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2R",
+      "roundness": null,
+      "seed": 987464225,
+      "version": 21,
+      "versionNonce": 348158113,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1776856985661,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          59.93419905865062,
+          0
+        ],
+        [
+          59.93419905865062,
+          -19.740533667380532
+        ],
+        [
+          126.83639872009235,
+          -19.740533667380532
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "bjtiYpwzPoL66tymayz5_",
+        "fixedPoint": [
+          1.046827678537911,
+          0.25665541256110475
+        ],
+        "focus": 0,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "neG1IM3Yx8sCdtGeVypUj",
+        "fixedPoint": [
+          -0.019563701612360658,
+          0.4980426387576889
+        ],
+        "focus": 0,
+        "gap": 0
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": true,
+      "fixedSegments": null,
+      "startIsSpecial": null,
+      "endIsSpecial": null
     }
   ],
   "appState": {

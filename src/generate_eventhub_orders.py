@@ -5,6 +5,7 @@ import time
 from datetime import datetime
 from azure.eventhub import EventHubProducerClient, EventData
 import pandas as pd
+from pathlib import Path
 
 from dotenv import load_dotenv
 load_dotenv()   
@@ -14,7 +15,9 @@ EVENTHUB_NAME = os.getenv("EVENTHUB_NAME")
 
 
 # Load data
-script_dir = os.path.dirname(os.path.abspath(__file__))
+
+script_dir = str(Path(__file__).resolve().parent.parent)
+
 df_restaurants = pd.read_csv(os.path.join(script_dir, "data", "restaurants.csv"))
 df_customers = pd.read_csv(os.path.join(script_dir, "data", "customers.csv"))
 df_menu_items = pd.read_csv(os.path.join(script_dir, "data", "menu_items.csv"))
@@ -104,4 +107,4 @@ def stream_to_eventhub(interval_seconds=3, max_orders=None):
         pass
 
 if __name__ == "__main__":
-    stream_to_eventhub(interval_seconds=3)
+    stream_to_eventhub(interval_seconds=0.1)
